@@ -95,6 +95,23 @@ tlmgr install mathcomp
 tlmgr install bgteubner
 tlmgr install xmpincl
 
+tlmgr install amssymb
+tlmgr install sansmath
+tlmgr install pdfx
+tlmgr install fontenc
+tlmgr install textcomp
+tlmgr install ptmxcomp
+tlmgr install tipa
+tlmgr install extraipa
+tlmgr install tagpdf
+tlmgr install array
+tlmgr install longtable
+tlmgr install xcolor
+tlmgr install helvet
+tlmgr install nopageno
+tlmgr install inputenc
+tlmgr install fontenc
+
 
 build-step "Updating installed packages..."
 tlmgr update --all
