@@ -80,6 +80,22 @@ if [ -f "$BUILD_DIR/texlive.packages" ]; then
     tlmgr install $(cat "$BUILD_DIR/texlive.packages")
 fi
 
+tlmgr install texliveonfly
+tlmgr install pdfmanagement-testphase
+tlmgr install extsizes
+tlmgr install pdfx
+tlmgr install xcolor
+tlmgr install sansmath
+tlmgr install etoolbox
+tlmgr install l3experimental
+tlmgr install l3bitset
+tlmgr install nopageno
+tlmgr install tagpdf
+tlmgr install mathcomp
+tlmgr install bgteubner
+tlmgr install xmpincl
+
+
 build-step "Updating installed packages..."
 tlmgr update --all
 
