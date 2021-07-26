@@ -88,7 +88,7 @@ tlmgr install xcolor
 tlmgr install sansmath
 tlmgr install etoolbox
 tlmgr install l3experimental
-tlmgr install l3bitset
+# tlmgr install l3bitset
 tlmgr install nopageno
 tlmgr install tagpdf
 tlmgr install mathcomp
