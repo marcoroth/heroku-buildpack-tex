@@ -98,10 +98,10 @@ tlmgr install xmpincl
 # tlmgr install amssymb
 tlmgr install amsfonts
 
-tlmgr install textcomp
-tlmgr install ptmxcomp
+# tlmgr install textcomp
+# tlmgr install ptmxcomp
 tlmgr install tipa
-tlmgr install extraipa
+# tlmgr install extraipa
 tlmgr install array
 tlmgr install longtable
 tlmgr install psnfss
