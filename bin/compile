@@ -104,8 +104,8 @@ tlmgr install tipa
 # tlmgr install extraipa
 # tlmgr install latex-tools
 # tlmgr install array
-tlmgr install longtable
-tlmgr install psnfss
+# tlmgr install longtable
+# tlmgr install psnfss
 # tlmgr install helvet
 # tlmgr install fontenc
 
