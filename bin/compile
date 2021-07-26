@@ -108,6 +108,7 @@ tlmgr install tipa
 # tlmgr install psnfss
 # tlmgr install helvet
 # tlmgr install fontenc
+tlmgr install collection-fontsrecommended
 
 build-step "Updating installed packages..."
 tlmgr update --all
