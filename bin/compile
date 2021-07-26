@@ -102,7 +102,7 @@ tlmgr install amsfonts
 # tlmgr install ptmxcomp
 tlmgr install tipa
 # tlmgr install extraipa
-tlmgr install latex-tools
+# tlmgr install latex-tools
 # tlmgr install array
 tlmgr install longtable
 tlmgr install psnfss
