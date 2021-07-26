@@ -95,10 +95,9 @@ tlmgr install mathcomp
 tlmgr install bgteubner
 tlmgr install xmpincl
 
-#tlmgr install amssymb
+# tlmgr install amssymb
 tlmgr install amsfonts
 
-tlmgr install fontenc
 tlmgr install textcomp
 tlmgr install ptmxcomp
 tlmgr install tipa
@@ -107,9 +106,7 @@ tlmgr install array
 tlmgr install longtable
 tlmgr install psnfss
 # tlmgr install helvet
-tlmgr install inputenc
-tlmgr install fontenc
-
+# tlmgr install fontenc
 
 build-step "Updating installed packages..."
 tlmgr update --all
